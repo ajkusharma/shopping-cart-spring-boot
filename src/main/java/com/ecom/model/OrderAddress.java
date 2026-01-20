@@ -1,3 +1,6 @@
+/*
+ * Author: Ajay Sharma
+ */
 package com.ecom.model;
 
 import jakarta.persistence.Entity;
