@@ -30,7 +30,7 @@ public class CommonUtil {
 		MimeMessage message = mailSender.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 
-		helper.setFrom("daspabitra55@gmail.com", "Shooping Cart");
+		helper.setFrom("ajkusharma@gmail.com", "Shooping Cart");
 		helper.setTo(reciepentEmail);
 
 		String content = "<p>Hello,</p>" + "<p>You have requested to reset your password.</p>"
@@ -50,8 +50,8 @@ public class CommonUtil {
 		return siteUrl.replace(request.getServletPath(), "");
 	}
 	
-	String msg=null;;
-	
+	String msg = null;
+
 	public Boolean sendMailForProductOrder(ProductOrder order,String status) throws Exception
 	{
 		
@@ -67,7 +67,7 @@ public class CommonUtil {
 		MimeMessage message = mailSender.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 
-		helper.setFrom("daspabitra55@gmail.com", "Shooping Cart");
+		helper.setFrom("ajkusharma@gmail.com", "Shooping Cart");
 		helper.setTo(order.getOrderAddress().getEmail());
 
 		msg=msg.replace("[[name]]",order.getOrderAddress().getFirstName());
