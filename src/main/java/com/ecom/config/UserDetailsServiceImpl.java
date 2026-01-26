@@ -1,3 +1,6 @@
+/*
+ * Author: Ajay Sharma
+ */
 package com.ecom.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
